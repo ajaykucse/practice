@@ -1,17 +1,11 @@
 
 public class aditya {
-	private String pName;
-	public void setName(String name)
-	{
-		pName = name;
-	}
-	public String getName() 
-	{
-		return pName;
-	}
-	public void saying()
-	{
-		System.out.printf("Hello! %s", getName());
-	}
+	
+//	public static int factorial (int N)
+//	{
+//		if (N<=1)
+//			return 1;
+//		else return (N* factorial(N-1));
+//	}
 
 }

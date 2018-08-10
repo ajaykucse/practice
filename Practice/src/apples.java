@@ -1,14 +1,19 @@
 import java.util.Scanner;
 
 public class apples {
+	
+	public static int factorial(int N)
+	{
+		if (N<=1)
+			return 1;
+		else return (N * factorial(N-1));
+	}
 
 	public static void main(String[] args) {
-		aditya adi = new aditya();
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter Your Name Please!");
-		String temp = input.nextLine();
-		adi.setName(temp);
-		adi.saying();
+		System.out.println("Enter any Number Please!");
+		int temp = input.nextInt();
+		System.out.println("Factorai of "+temp+": "+factorial(temp));
 	}
 
 }
